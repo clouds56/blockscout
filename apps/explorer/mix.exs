@@ -79,6 +79,7 @@ defmodule Explorer.Mixfile do
       {:ecto_sql, "~> 3.3"},
       # JSONRPC access to query smart contracts
       {:ethereum_jsonrpc, in_umbrella: true},
+      {:ex_keccak, "~> 0.1.2"},
       # Data factory for testing
       {:ex_machina, "~> 2.3", only: [:test]},
       # Code coverage
